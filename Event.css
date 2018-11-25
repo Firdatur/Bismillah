@@ -1,0 +1,153 @@
+*{margin: 0; padding: 0;}
+body{
+	width: 900px;
+	margin: auto;
+	background-image: url(img/itu.jpg);
+}
+header{
+	width: 900px;
+	height: 400px;
+}
+header img{
+	width: 900px;
+	height: 400px;	
+}
+menu{
+	width: 880px;
+	height: 25px;
+	background-color: grey;
+	padding: 10px;
+}
+menu li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+	color: black;
+}
+menu li a{
+	text-decoration: none;
+	color: black;
+}
+menu li a:hover{
+	color: lightgrey;
+}
+.recomended{
+	padding-top: 10px;
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	width: 900px;
+	height: 1500px;
+}
+.recomended h1{
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.recomended .recomendedkiri{
+	width: 350px;
+	float: left;
+	margin: 5px 5px 5px 10px; 
+}
+.recomended img{
+	width: 200px;
+	height: 250px;
+	float: left;
+	margin: 5px 5px 5px 30px; 
+}
+.recomended .recomendedkanan p{
+	padding-top: 10px;
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 400px;
+}
+.recomended .recomendedtengah{
+	padding-top: 200px;
+	text-align: center;
+	float: center;
+}
+.recomended .box-tambah{
+	width: 80%;
+	min-height: 500px;
+	border: 1px solid;
+	margin: 0% auto;
+	background-color: whitesmoke;
+}
+.recomended .title-tambah{
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	font-size: 18px;
+}
+table{
+	padding-left: 30px;
+	padding-top: 30px;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+table [type=text]{
+	width: 100%;
+	height: 30px;
+}
+table select{
+	width: 30%;
+	height: 30px;
+}
+table [type=file]{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+table textarea{
+	width: 100%;
+	height: 100px;
+}
+table [type=submit]{
+	width: 15%;
+	height: 30px;
+	padding: 1%;
+	font-size: 17px;
+	margin-top: 50px;
+	margin-left: 85%;
+	background-color: grey;
+	border: 1px solid;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.recomended .content-tambah {
+	max-width: 100%;
+	height: 400px;
+	background-color: #eee;
+	padding: 5%;
+	text-align: left;
+}
+.footer{
+	width: 900px;right: 
+	height: 100px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	margin-top: 3px;
+}
+.footer img{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 10px 5px 5px 30px;
+}
+.nama{
+    float: left;
+    margin-top: 8px;
+    position: relative;
+    font-weight: bold;
+}
+.nama1 {
+    float: left;
+    margin-top: 8px;
+    position: relative;
+    font-weight: bold;
+}

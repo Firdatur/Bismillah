@@ -1,0 +1,110 @@
+*{margin: 0; padding: 0;}
+body{
+	width:900px;
+	margin: auto;
+	background-image: url(img/itu.jpg);
+}
+header{
+	width: 900px;
+	height: 400px;
+}
+header img{
+	width: 900px;
+	height: 400px;	
+}
+menu{
+	width: 880px;
+	height: 25px;
+	background-color: grey;
+	padding: 10px;
+}
+menu li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+	color: black;
+}
+menu li a{
+	text-decoration: none;
+	color: black;
+}
+menu li a:hover{
+	color: lightgrey;
+}
+.recomended{
+	padding-top: 10px;
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	width: 900px;
+	height: 1800px;
+}
+.recomended h1{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.recomended .recomendedkiri{
+	width: 350px;
+	float: left;
+	margin: 5px 5px 5px 10px; 
+}
+.recomended img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 5px 5px 5px 30px; 
+}
+.recomended .recomendedkanan p{
+	padding-top: 10px;
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 400px;
+}
+.recomended .recomendedtengah{
+	padding-top: 100px;
+	text-align: center;
+	float: center;
+}
+.foto{
+	padding-top: 100px;
+}
+.foto img{
+	width:500px;
+	height: 200px;
+	margin: auto;
+	float: left;
+	margin: 5px 5px 5px 200px;
+}
+.footer{
+	width: 900px;
+	height: 100px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	margin-top: 3px;
+}
+.footer .logo img{
+	width: 50px;
+	height: 50px;
+	float: right;
+
+}
+.footer img{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 10px 5px 5px 30px;
+}
+.nama{
+    float: left;
+    margin-top: 8px;
+    position: relative;
+    font-weight: bold;
+}
+.nama1 {
+    float: left;
+    margin-top: 8px;
+    position: relative;
+    font-weight: bold;
+}

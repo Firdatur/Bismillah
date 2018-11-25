@@ -1,0 +1,97 @@
+*{margin: 0; padding: 0;}
+body{
+	width:900px;
+	margin: auto;
+	background-image: url(img/itu.jpg);
+}
+header{
+	width: 900px;
+	height: 400px;
+}
+header img{
+	width: 900px;
+	height: 400px;	
+}
+menu{
+	width: 880px;
+	height: 25px;
+	background-color: grey;
+	padding: 10px;
+}
+menu li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+	color: black;
+}
+menu li a{
+	text-decoration: none;
+	color: black;
+}
+menu li a:hover{
+	color: lightgrey;
+}
+.recomended{
+	padding-top: 10px;
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	width: 900px;
+	height: 1000px;
+}
+.recomended h1{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.recomended img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 40px 5px 5px 360px;
+}
+.recomended p{
+	padding-top: 300px;
+	text-align: center;
+	margin-right: 80px;
+	margin-left: 100px;
+	font-size: 24px;
+}
+.recomended .tentang img{
+	width: 800px;
+	height: 450px;
+	float: left;
+	margin: 30px 5px 5px 70px;	
+}
+.footer{
+	width: 900px;
+	height: 100px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	margin-top: 3px;
+}
+.footer .logo img{
+	width: 50px;
+	height: 50px;
+	float: right;
+
+}
+.footer img{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 10px 5px 5px 30px;
+}
+.nama{
+    float: left;
+    margin-top: 8px;
+    position: relative;
+    font-weight: bold;
+}
+.nama1 {
+    float: left;
+    margin-top: 8px;
+    position: relative;
+    font-weight: bold;
+}
