@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="img/ilkom.png">
+    <title>Pendaftar Online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Pendaftaran</title>
+</head>
+
+<body>
+    <header class="nav-atas">
+        <div class="wadah">
+            <div class="row">
+                <div class="judul">
+                    <img src="img/logounej.png" width="100px">
+                    <h1 class="kop">Pendaftaran Online</h1>
+                    <h2 class="kop">Organisasi Mahasiswa Sistem Informasi</h2>
+                </div>
+
+                    <div class="dropdown">
+                        <a href="" class="toggle"><i class="fa fa-bars"></i></a>
+                        <div class="dropdown-child">
+                            
+                            <a href="Bem.html">BEM</a>
+                            <a href="Himasif.html">HIMASIF</a>
+                            <a href="Laos.html">LAOS</a>
+                            <a href="macho.html">UKM-O MACHO</a>
+                            <a href="etalase.html">UKMK ETALASE</a>
+                            <a href="balwana.html">BALWANA</a>
+                            <a href="binary.html">BINARY</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </header>
+        <div class="bg-menu">
+            <ul>
+                <li><a href="Bem.html" class="menu-text">BEM</a></li>
+                <li><a href="Himasif.html" class="menu-text">HIMASIF</a></li>
+                <li><a href="Laos.html" class="menu-text">LAOS</a></li>
+                <li><a href="macho.html" class="menu-text">MACHO</a></li>
+                <li><a href="etalase.html" class="menu-text">ETALASE</a></li>
+                <li><a href="balwana.html" class="menu-text">BALWANA</a></li>
+                <li><a href="binary.html" class="menu-text">BINARY</a></li>
+            </ul>
+    </div>
+    <div class="wadah">
+        <div class="row">
+            <div class="col-8">
+                <div class="posting">
+                        <p>Persyaratan:</p>
+                        <p> 1. Mahasiswa aktif Fakultas Ilmu Komputer</p>
+                        <p> 2. Siap sedia mengikuti kegiatan organisasi</p>
+                        <p> 3. Semester 1-7</p>
+                        <p> 4. Patuh dan turut serta menaati peraturan tiap organisasi</p>
+                    
+                        <form name="form">
+                                <h1>
+                                    <center>Form Pendaftaran</center>
+                                </h1>
+                                
+                                <div class="form-group">
+                                        <p>Nama<span style="padding-left:90px;"></span> : <input type="text" id="nama"></P><br>
+                                </div>
+                                <div class="form-group">
+                                        <p>NIM<span style="padding-left:98px;"></span> : <input type="text" id="NIM"></P><br>
+                                </div>
+                                <div class="form-group">
+                                        <p>TTL<span style="padding-left:103px;"></span>: <input type="text" id="TTL"></P><br>
+                                    
+                                </div>
+                                <div class="form-group">
+                                        <p>Jenis Kelamin</td><span style="padding-left:42px;"></span>: <input type="radio" id="jeniskelamin" value="perempuan">Perempuan
+                                            <input type="radio" id="jeniskelamin" value="lakilaki">Laki-Laki</p><br>
+                                    </div>
+                                <div class="form-group">
+                                        <p>Email</td><span style="padding-left:95px;"></span>: <input type="email" id="email"></p><br>
+                                </div>
+                                <div class="form-group">
+                                        <p>Ormawa</td><span style="padding-left:80px;"></span>: <input type="text" id="ormawa"></p><br>
+                                </div>
+                                <div class="form-group">
+                                        <p>No.Telepon</td><span style="padding-left:59px;"></span>: <input type="text" id="telepon" ></p><br>
+                                </div>
+                                <div class="form-group">
+                                        <p>Alamat</td><span style="padding-left:87px;"></span>: <input type="text" id="alamat"></p><br>
+                                    </div>
+                                <input type="button" onclick="terimainput()" value="Daftar">
+                            </form>
+                        
+                            <br>
+                            <br>
+                            <table border="1" id="inputan">
+                                <tr>
+                                    <td>Nama Lengkap</td>
+                                    <td>NIM</td>
+                                    <td>TTL</td>
+                                    <td>Jenis Kelamin</td>
+                                    <td>Email</td>
+                                    <td>Ormawa</td>
+                                    <td>No.Telepon</td>
+                                    <td>Alamat</td>
+                                </tr>
+                            </table>
+               
+                        </div>
+
+            </div>
+            <div class="col-4">
+                <div class="menu-vertikal">
+                    <a href="Beranda.html" >Beranda</a>
+                    <a href="Profil.html">Profil</a>
+                    <a href="Event.html">Event</a>
+                    <a href="tentang.html">Tentang</a>
+                    <a href="login.html">Keluar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wadah">
+            <p class="footer">Copyright © Misti Ika P & Firdatur Roaini A.</p>
+        </div>
+
+    </footer>
+
+    <script src="Javascript.js"></script>
+</body>
+
+</html>

@@ -1,31 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>User registration</title>
-	<link rel="stylesheet" type="text/css" href="login.css">
-</head>
-<body>
-	<div class="header">
-		<h2>Register</h2>
-	</div>
+<html>
+        <head>
+                <link rel="icon" type="image/png" href="img/ilkom.png">
+                <title>Login Admin</title>
+                <style type = "text/Css">
+                body{
+    background-image: url(img/bu.jpg);
+}
+ 
+.konten{
+    background: #d8eeee;
+    margin-right: 470px;
+    margin-left: 470px;
+    margin-top: 200px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+ 
+.atas{
+    background: darkslategrey;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 50px;
+}
+ 
+div.artikel{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    color: black;
+    font-size: 10px;
+}
 
-	<form method="post" action="Register.html">
-		<div class="input-group">
-			<label>NIM</label>
-			<input type="text" id="NIM" required placeholder="NIM User">
-		</div>
-		<div class="input-group">
-			<label>Password</label>
-			<input type="Password" id="Password" required placeholder="Password User">
-		</div>
-		<div class="input-group">
-			<button type="submit" name="Loginadmin" class="btn">
-			<a href="Beranda.html">Login</a>
-			</button>
-		</div>
-		<p>
-			Masuk Sebagai Admin <a href="loginadmin.html">Sign in</a>
-		</p>
-	</form>
-</body>
+.form{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+ 
+.form [type="text"]{
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+    background: white;
+}
+.form [type="password"]{
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+    background: white;
+}
+ 
+.form input[type="submit"]{
+    background: #0c6d65;
+    padding: 6px 26px;
+    border: none;
+    color: white;
+}
+ 
+.form input[type="submit"]:hover{
+    background: #15b1a4;
+
+}</style>
+            </head>
+            <body>
+                <div class="konten">
+                    <div class="atas">
+                        <h2"><center>Login</center></h2>
+                    </div>
+                    <div class="artikel">
+                            <div class="form">
+                                <label for="Username">Username</label>
+                                <input type="text" id="username" placeholder="Masukkan Username">
+                            </div>
+                            <div class="form">
+                                <label for="password"> Password</label>
+                                <input type="password" id="password" placeholder="Masukkan password">
+                            </div>
+                            <div class="form">
+                                <button onclick="LogIn()" value="Log In">Login</button>
+                            </div>
+                    </div>
+                </div>
+                <script src="login.js"></script>
+            </body>
 </html>

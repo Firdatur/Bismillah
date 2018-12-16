@@ -157,7 +157,21 @@ h2{
     background-color: #4CAF50;
     color: white;
 }
-
+.posting [type=submit]{
+    width: 10%;
+    height: 30px;
+    padding: 1%;
+    padding-bottom: 20px;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    background-color: darkslategrey;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .footer{
     background-color: cadetblue;
     padding: 15px;
